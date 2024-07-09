@@ -1,5 +1,5 @@
 # CA-Military-Discord-Bot
-Discord Bot that sends out Canadian Military Applications
+An independently made Discord Bot that sends out Canadian Military Applications
 https://replit.com/@melkonaren/CA-Military-Discord-Bot?v=1
 
 This bot monitors user activities, specifically detecting when a user starts
