@@ -171,7 +171,7 @@ async def on_presence_update(before, after):
       for game in final_game:
         try:
           await channel.send(
-              f'Hey {after.mention}! instead of playing {game}, please apply for the Canadian Military instead!\nYou will feel so much better about yourself if you signed up instead!\nhttps://forces.ca/en/apply-now/'
+              f'Hey {after.mention}! instead of playing {game}, please apply for the Canadian Military!\nYou will feel so much better about yourself if you sign up instead!\nhttps://forces.ca/en/apply-now/'
           )
         except nextcord.DiscordException as e:
           print(f'Error sending the message: {e}')
