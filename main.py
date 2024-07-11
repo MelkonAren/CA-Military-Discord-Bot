@@ -2,7 +2,6 @@
 import nextcord
 import os
 from nextcord.ext import commands, tasks
-from keep_alive import keep_alive
 
 # Creates a Discord client instance
 intents = nextcord.Intents.default()
@@ -181,5 +180,4 @@ async def on_presence_update(before, after):
 # ---------------------------------------------------------------
 # Retrieve token from the secrets file
 token = os.environ['TOKEN']
-keep_alive()
 bot.run(token)
