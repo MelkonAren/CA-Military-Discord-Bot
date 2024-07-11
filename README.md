@@ -5,4 +5,4 @@ An independently made Discord Bot that sends out Canadian Military Applications
 This bot monitors user activities, specifically detecting when a user starts
 playing a game, and sends a personalized message encouraging them to apply for the Canadian Military. The bot accurately identifies gaming activities and directs messages by handling presence update events.
 
-<span style="font-size:2rem;">Features</span>
+<span style="font-size:2em;">Features</span>
