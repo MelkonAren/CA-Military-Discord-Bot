@@ -24,17 +24,17 @@ playing a game, and sends a personalized message encouraging them to apply for t
 ## How It Works
 ### Initialization Features
 1. Imports:
--- Using 'nextcord.py', 'os', and 'nextcord.ext', the bot can carry out all of its necessary tasks and commands.
+  - Using 'nextcord.py', 'os', and 'nextcord.ext', the bot can carry out all of its necessary tasks and commands.
 
 2. Prefix:
--- The bot uses the constant '!' as the prefix for all commands listed.
+  - The bot uses the constant '!' as the prefix for all commands listed.
 
 ### Automated Features
 1. Daily Reminders:
--- Utilizing the 'schedule_monitoring' task loop, the bot keeps track of the time as soon as it runs to send out updates every day without delay.
+  - Utilizing the 'schedule_monitoring' task loop, the bot keeps track of the time as soon as it runs to send out updates every day without delay.
 
 2. Presence Monitoring:
--- The bot can monitor the statuses of users by comparing the before and after whenever it updates. If the bot tracks that the user merely changed their presence status, the bot will ignore this as it is not a game. However, as soon as the bot detects the user playing a game, it waits for the user to exit the game before sending the message. (You don't want to interrupt the session after all)
+  - The bot can monitor the statuses of users by comparing the before and after whenever it updates. If the bot tracks that the user merely changed their presence status, the bot will ignore this as it is not a game. However, as soon as the bot detects the user playing a game, it waits for the user to exit the game before sending the message. (You don't want to interrupt the session after all)
 
 ### Role and Channel Management:
 - A dictionary stores the custom roles and channels that the bot is given with custom IDs so nothing is mixed up.
