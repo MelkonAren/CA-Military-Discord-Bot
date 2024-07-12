@@ -1,3 +1,5 @@
+(DISCLAIMER: This has no association with the actual Canadian Government, this was made as a fanmade project)
+
 # CA-Military-Discord-Bot
 An independently made Discord Bot that sends out Canadian Military Applications
 --> [Try it out!!](https://discord.com/oauth2/authorize?client_id=1258171483398733976&permissions=1126881575824464&integration_type=0&scope=bot) <--
